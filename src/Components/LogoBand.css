@@ -1,0 +1,40 @@
+/* Style for the logo band */
+.logo-band {
+    background-color: grey; /* Background color for the logo band */
+    display: flex;
+    /* overflow: hidden; */
+    align-items: center;
+    padding: 5px 0;
+    /* Set a height for the logo band, e.g., 50px */
+    height: 50px;
+    position:absolute;
+    top:-70px;
+    left:0;
+    width: 100%;
+    z-index:1;
+    justify-content: space-between;
+    height: 50px;
+  }
+  
+  /* Style for individual brand logos */
+  .logo-band img {
+    margin: 0 10px; 
+    max-height: 40px;/* Add horizontal spacing between logos */
+    /* Add other styles for the logo, such as width, height, and animations */
+  }
+
+  /* Animation for moving the logos horizontally */
+@keyframes moveLogos {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Apply the animation to the logo images */
+  .logo-band img {
+    animation: moveLogos 10s linear infinite; /* Adjust the duration and timing function as needed */
+  }
+  
