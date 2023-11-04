@@ -1,0 +1,60 @@
+/* Style the CardSlider container */
+.card-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Style the individual card */
+  .card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card h4 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  
+  .card p {
+    color: #555;
+  }
+  
+  /* Style the slider controls */
+  .slider-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .slider-controls button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .slider-controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  .slider-controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

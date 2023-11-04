@@ -1,0 +1,103 @@
+.bg-img {
+    /* The image used */
+    background-image: url("C:/Users/refil/Downloads/Makhentsa_Website/client-website/src/Assets/Hero3.jpeg");
+    /* Control the height of the image */
+    min-height: 500px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    left: 0; /* Position to the left side */
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    width: 700px;
+    padding: 16px;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid maroon; /* Maroon border */
+    border-radius: 10px; /* Rounded border corners */
+  }
+  
+
+
+  /* Left section styles */
+.left-section {
+    /* flex: 1; */
+    padding: 16px;
+    border-right: 3px solid maroon; /* Vertical line separating left and right sections */
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+
+  i {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  /* Right section styles */
+  .right-section {
+    /* flex: 2; */
+    padding: 16px;
+  }
+  /* Full-width input fields */
+  label {
+    display: block; /* Display each label on a new line */
+    margin-bottom: 5px; /* Add space between labels */
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 300px;
+    padding: 15px;
+    margin: 5px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  textarea {
+    width: 300px;
+    padding: 15px;
+    margin: 5px 0 15px 0; /* Add space after the textarea */
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: maroon;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
