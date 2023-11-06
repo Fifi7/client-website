@@ -1,5 +1,7 @@
 import React from 'react';
 import './ContactUs.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const ContactUs = () => {
   return (
@@ -10,16 +12,28 @@ const ContactUs = () => {
       <h2>Contact Details</h2>
       <div className="contact-info">
         <div className="info">
-          <i className="fas fa-map-marker-alt"></i>
-          <p>123 Main Street, City, Country</p>
+        <div className="icon">
+                <FontAwesomeIcon icon={faLocationDot} size="2x" />
+              </div>
+              <div className="text">
+                <p>123 Main Street, City, Country</p>
+              </div>
         </div>
         <div className="info">
-          <i className="fas fa-phone"></i>
-          <p>(123) 456-7890</p>
+        <div className="icon">
+                <FontAwesomeIcon icon={faEnvelope} size="2x" />
+              </div>
+              <div className="text">
+                <p>info@example.com</p>
+              </div>
         </div>
         <div className="info">
-          <i className="fas fa-envelope"></i>
-          <p>info@example.com</p>
+        <div className="icon">
+                <FontAwesomeIcon icon={faPhone} size="2x" />
+              </div>
+              <div className="text">
+                <p>(123) 456-7890</p>
+              </div>
         </div>
       </div>
     </div>

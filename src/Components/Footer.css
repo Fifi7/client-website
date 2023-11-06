@@ -1,29 +1,27 @@
 /* Style for the footer */
 .footer {
-    /* background-color: #333; */
+  
     color: #fff;
-    /* padding: 10px; */
     text-align: center;
     position: absolute;
-    left: 0;
-    bottom: 0;
     width: 100%;
     display: flex;
-     /* Move contact info to the right */
+    
+     
   }
 
   /* Style for the left side with a different background color */
 .left-side {
-    background-color: #333; /* Left side background color */
-    padding: 10px;
+    background-color: maroon; /* Left side background color */
+    padding: 5px;
     flex: 1; /* Grow to fill available space */
-    margin-top: 10px;
+    
   }
 
   /* Style for the right side with another background color */
 .right-side {
-    background-color: #555; /* Right side background color */
-    padding: 10px;
+    background-color: white; /* Right side background color */
+    padding: 5px;
     margin-top: 10px;
     flex: 1;
     display: flex;
@@ -35,9 +33,10 @@
   }
   
   /* Style for the contact information */
-  .contact-info {
+  .footer-contact-info {
     text-align: right;
     display: flex;
+    color:maroon;
      /* Set to row to display contact items side by side */
   }
   

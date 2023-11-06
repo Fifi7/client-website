@@ -1,10 +1,10 @@
 import React from 'react';
 import './Card.css';
-import image1 from '../Assets/logo1.png';
 
-const Card = ({ name, title }) => (
+
+const Card = ({ name, title, imageSrc }) => (
   <div className="card">
-    <img src={image1} alt="Avatar" />
+    <img src={imageSrc} alt="Avatar" />
     <div className="card-container">
       <h4><b>{name}</b></h4>
       <p>{title}</p>

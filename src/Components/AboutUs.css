@@ -2,7 +2,7 @@
     background-image: url('../Assets/Hero3.jpeg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 130vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,11 +10,20 @@
     text-align: left;
     font-size: 24px;
     justify-content: flex-start;
+
   }
   
    .about-content {
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
+    border-radius: 15px;
+    max-width: 600px;
+  margin: 0 auto;
+  font-size: 16px; /* Smaller font size for paragraphs */
+  line-height: 1.4; /* Adjust line height for better readability */
+  padding: 20px 40px;
+    /* max-width: 600px; 
+    margin: 0 auto; */
     
   }
   

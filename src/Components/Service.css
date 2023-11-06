@@ -2,7 +2,6 @@
     background-image: url('../Assets/Hero3.jpeg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,11 +9,24 @@
     text-align: left;
     font-size: 24px;
     justify-content: flex-start;
+    flex-direction: column;
+    min-height: 900px;
   }
   
    .service-content {
     background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    padding: 10px;
+    margin: 20px; /* Add margin to separate service content from CardSlider */
+    max-width: 800px;
     
+  justify-content: space-between; /* Distribute content horizontally */
+  border-radius: 10px;
+    
+  }
+  
+  .service-content p {
+    font-size: 14px; /* Adjust the font size to make it smaller */
+    display: inline-block; 
+    margin: 5px  0; /* Remove any default margin */
   }
   

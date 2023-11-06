@@ -2,7 +2,7 @@
     /* The image used */
     background-image: url("C:/Users/refil/Downloads/Makhentsa_Website/client-website/src/Assets/Hero3.jpeg");
     /* Control the height of the image */
-    min-height: 500px;
+    min-height: 700px;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -13,7 +13,11 @@
   /* Add styles to the form container */
   .container {
     position: absolute;
-    left: 0; /* Position to the left side */
+    /* left: 0;  */
+
+    left: 50%; /* Move the container to the horizontal center */
+  top: 50%; /* Move the container to the vertical center */
+  transform: translate(-50%, -50%); /* Center the container both horizontally and vertically */
     margin: 20px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -101,3 +105,23 @@
     opacity: 1;
   }
   
+  /* Add these styles to your ContactUs.css file */
+
+/* Style the icon container */
+.icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px; /* Add some space between icon and text */
+}
+
+/* Style the FontAwesome icons */
+.icon svg {
+  font-size: 24px; /* Adjust the icon size as needed */
+  margin-right: 10px; /* Add space between icon and text */
+}
+
+/* Style the paragraph text */
+.text p {
+  margin-left: 10px;
+  
+}

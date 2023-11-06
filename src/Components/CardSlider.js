@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
 import Card from './Card';
 import './CardSlider.css'
+import img1 from '../Assets/service1.jpeg';
 
+
+
+const cards = [
+    { name: 'John Doe', title: 'Construction & Maintenance', imageSrc: img1 },
+    // Add other card objects with imageSrc
+  ];
 
 const CardSlider = ({ cards }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -27,7 +34,7 @@ const CardSlider = ({ cards }) => {
     <div className="card-slider">
       <div className="card-list">
         {visibleCards.map((card, index) => (
-          <Card key={index} name={card.name} title={card.title} />
+          <Card key={index} name={card.name} title={card.title} imageSrc={card.imageSrc} />
         ))}
       </div>
       <div className="slider-controls">

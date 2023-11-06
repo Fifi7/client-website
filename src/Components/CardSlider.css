@@ -9,28 +9,28 @@
   
   /* Style the individual card */
   .card {
-    background-color: #fff;
+    /* background-color: #fff; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 10px;
-    width: 200px;
+    width: 250px;
+    height: 350px;
     padding: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column; /* To stack the card content */
+   /* To space content vertically */
   }
   
   .card img {
     max-width: 100%;
     border-radius: 10px 10px 0 0;
+    max-height: 60%; 
+    object-fit: cover;
+    /* display: block;
+    height: auto; */
   }
   
-  .card h4 {
-    margin: 10px 0;
-    font-size: 1.5rem;
-  }
-  
-  .card p {
-    color: #555;
-  }
   
   /* Style the slider controls */
   .slider-controls {
@@ -40,7 +40,7 @@
   }
   
   .slider-controls button {
-    background-color: #007BFF;
+    background-color: black;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -50,7 +50,7 @@
   }
   
   .slider-controls button:hover {
-    background-color: #0056b3;
+    background-color: maroon;
   }
   
   .slider-controls button:disabled {
@@ -58,3 +58,5 @@
     cursor: not-allowed;
   }
   
+
+ 
