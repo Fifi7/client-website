@@ -22,7 +22,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
-    width: 700px;
+    width: 500px;
     padding: 16px;
     background-color: white;
     background-color: rgba(255, 255, 255, 0.8);
@@ -36,7 +36,8 @@
 .left-section {
     /* flex: 1; */
     padding: 16px;
-    border-right: 3px solid maroon; /* Vertical line separating left and right sections */
+    border-left: 3px solid #800000; /* Vertical line separating left and right sections */
+    margin-left: 150px;
   }
   
   .contact-info {
@@ -47,6 +48,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    text-align: left;
   }
 
 

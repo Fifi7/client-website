@@ -22,10 +22,19 @@
   line-height: 1.4; /* Adjust line height for better readability */
   padding: 20px 40px;
   margin-top: 50px;
+  
     /* max-width: 600px; 
     margin: 0 auto; */
     
   }
+
+  .hero-container .content p {
+    text-align: left;
+     /* Justify text for proper alignment */
+     /* Remove default paragraph margins to prevent extra spacing */
+     /* Add an initial indentation to the first line of each paragraph */
+  }
+
   
    /* Add styles for the slideshow */
 /* .slideshow {

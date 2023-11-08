@@ -11,22 +11,31 @@
     justify-content: flex-start;
     flex-direction: column;
     min-height: 900px;
+    position: relative; /* Add position relative */
+
   }
   
    .service-content {
     background: rgba(0, 0, 0, 0.5);
     padding: 10px;
-    margin: 20px; /* Add margin to separate service content from CardSlider */
+     /* Add margin to separate service content from CardSlider */
     max-width: 800px;
-    
-  justify-content: space-between; /* Distribute content horizontally */
-  border-radius: 10px;
+    justify-content: space-between; /* Distribute content horizontally */
+    border-radius: 10px;
+    position: relative; /* Add position relative */
+    z-index: 1; 
+    margin-top: 150px;/* Set z-index to ensure it's above the background image */
     
   }
   
   .service-content p {
-    font-size: 14px; /* Adjust the font size to make it smaller */
+    font-size: 16px; /* Adjust the font size to make it smaller */
     display: inline-block; 
     margin: 5px  0; /* Remove any default margin */
+    font-weight: 200;
+  }
+
+  h3 {
+    z-index: 1; /* Set z-index to ensure it's above the background image */
   }
   

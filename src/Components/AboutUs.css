@@ -27,3 +27,10 @@
     
   }
   
+  .about-container .about-content p {
+    text-align: left; /* Justify text for proper alignment */
+     /* Remove default paragraph margins to prevent extra spacing */
+     /* Add an initial indentation to the first line of each paragraph */
+      /* Add an initial indentation to the first line of each paragraph */
+  
+  }

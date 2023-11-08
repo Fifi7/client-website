@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Footer.css';
 import LogoBand from './LogoBand';
 
@@ -8,13 +8,13 @@ function Footer() {
     <footer className="footer">
         <LogoBand/>
         <div className="left-side">
-        <p>Get in touch with us</p>
+        <p>Get in touch with us!!!</p>
       </div>
       <div className='right-side'>
       <div className="footer-contact-info">
-        <div className="contact-item">Tel: (123) 456-7890</div>
-        <div className="contact-item">Email: info@example.com</div>
-        <div className="contact-item">Address: 123 Main St, City</div>
+        <div className="contact-item">Tel: (011) 823-2847</div>
+        <div className="contact-item">Email: info@makhentsa.co.za</div>
+        <div className="contact-item">Address: Golf Street, Boksburg West, Johannesburg</div>
       </div>
       </div>
     </footer>
