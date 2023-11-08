@@ -2,3 +2,25 @@
   text-align: center;
 }
 
+/* Default styles for all screens */
+/* Add your global styles here */
+
+/* Media query for small screens */
+@media (max-width: 767px) {
+  /* Styles for small screens */
+}
+
+/* Media query for medium screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Styles for medium screens */
+}
+
+/* Media query for large screens */
+@media (min-width: 1024px) {
+  /* Styles for large screens */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
