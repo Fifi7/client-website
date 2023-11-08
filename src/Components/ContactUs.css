@@ -1,6 +1,6 @@
 .bg-img {
     /* The image used */
-    background-image: url("C:/Users/refil/Downloads/Makhentsa_Website/client-website/src/Assets/Hero3.jpeg");
+    background-image: url("../Assets/Hero3.jpeg");
     /* Control the height of the image */
     min-height: 700px;
     /* Center and scale the image nicely */
