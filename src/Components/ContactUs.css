@@ -38,6 +38,7 @@
     padding: 16px;
     border-left: 3px solid #800000; /* Vertical line separating left and right sections */
     margin-left: 150px;
+    order:1;
   }
   
   .contact-info {
@@ -127,3 +128,4 @@
   margin-left: 10px;
   
 }
+

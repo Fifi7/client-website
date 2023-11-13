@@ -6,9 +6,110 @@
 /* Add your global styles here */
 
 /* Media query for small screens */
-@media (max-width: 767px) {
+@media only screen and (max-width: 400px) {
   /* Styles for small screens */
+  body {
+    font-size: 16px; /* Adjust font size for small screens */
+  }
+
+  .App {
+    text-align: left;
+    width:100%; /* Align text to the left for small screens */
+  }
+
+  .footer {
+   /* Add padding for better spacing in the footer on small screens */
+  }
+
+  .logo-band {
+    text-align: center;
+    padding: 10px; /* Center text in LogoBand for small screens */
+   }
+
+   .left-section {
+    order: 1; /* Move left-section to the top on small screens */
+  }
+
+ .bg-img{
+ 
+  height:90%;
+
+ }
+
+ .container{
+ 
+ 
+ }
+
+
+.topnav a.icon {
+  float: right;
+  display: block;
 }
+
+.service-container {
+  display: flex;
+  flex-direction: column; /* Stack cards and slider vertically on small screens */
+  align-items: center;
+  text-align: center;
+}
+
+.card-slider {
+  width: 100%; /* Make the slider full width on small screens */
+}
+
+.service-card {
+  width: 100%; /* Make cards full width on small screens */
+  margin-bottom: 20px; /* Add spacing between cards */
+}
+
+.service-card img {
+  max-width: 100%; /* Ensure images don't exceed the card width */
+}
+
+.card-slider {
+  overflow: hidden; /* Hide overflow for small screens */
+}
+
+.card-slider .slide {
+  width: 100%; /* Make slides full width on small screens */
+}
+
+.service-card h3 {
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+.service-card p {
+  font-size: 14px; /* Smaller font size for paragraphs */
+}
+
+.service-container {
+  padding: 20px; /* Add padding to the container for spacing */
+}
+
+.card-slider {
+  margin-top: 20px; /* Add spacing between the slider and cards */
+}
+
+.card-list{
+  flex-direction: column;
+}
+
+.topnav a {
+  float: none; /* Remove float for small screens */
+  width: 100%; /* Make links full width on small screens */
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin: 5px 0; /* Include padding in the width calculation */
+}
+
+.topnav {
+  flex-direction: column; /* Stack items vertically */
+}
+}
+
+/* Add styles for your hamburger icon (you may want to use an actual icon here) */
+
 
 /* Media query for medium screens */
 @media (min-width: 768px) and (max-width: 1023px) {
