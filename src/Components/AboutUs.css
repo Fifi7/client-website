@@ -29,8 +29,24 @@
   
   .about-container .about-content p {
     text-align: left; /* Justify text for proper alignment */
-     /* Remove default paragraph margins to prevent extra spacing */
-     /* Add an initial indentation to the first line of each paragraph */
-      /* Add an initial indentation to the first line of each paragraph */
+     
   
   }
+
+  /* Mobile styles */
+@media only screen and (max-width: 600px) {
+  .about-container {
+    height: auto;
+  }
+
+  .about-content {
+    max-width: 100%;
+    border-radius: 0;
+    /* padding: 10px;  */
+    margin-top: 20px; 
+  }
+  
+  .about-container .about-content p {
+    font-size: 14px; /* Adjust font size for mobile */
+  }
+}

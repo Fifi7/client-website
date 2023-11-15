@@ -129,3 +129,73 @@
   
 }
 
+/* ... (previous styles) */
+
+/* Media query for mobile styles */
+@media only screen and (max-width: 600px) {
+  /* Adjust the background image size for better visibility */
+  .bg-img {
+    min-height: 400px;
+  }
+
+  /* Adjust the form container styles for mobile view */
+  .container {
+    width: 90%; /* Use a percentage width for better responsiveness */
+    grid-template-columns: 1fr; /* Display one column for mobile view */
+    gap: 10px;
+    margin: 10px;
+    max-width: 400px; /* Limit the maximum width for smaller screens */
+    padding: 10px; /* Add padding for better spacing */
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid maroon;
+    border-radius: 10px;
+  }
+
+  /* Adjust the left section styles for mobile view */
+  .left-section {
+    border-left: none; /* Remove the vertical line for mobile view */
+    margin-left: 0;
+    padding: 10px;
+    order: 0;
+  }
+
+  /* Adjust the right section styles for mobile view */
+  .right-section {
+    padding: 10px;
+  }
+
+  /* Adjust input and textarea styles for mobile view */
+  input[type="text"],
+  input[type="password"],
+  textarea {
+    width: 100%; 
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    margin: 5px 0;/* Make the input fields take up the full width */
+  }
+
+  /* Adjust the button styles for mobile view */
+  .btn {
+    width: 100%;
+  }
+
+  /* Adjust contact info styles for mobile view */
+  .contact-info {
+    margin-top: 10px;
+  }
+
+  /* Adjust info styles for mobile view */
+  .info {
+    margin-bottom: 5px;
+  }
+  
+  /* Adjust icon styles for mobile view */
+  .icon svg {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+
+  /* Adjust text styles for mobile view */
+  .text p {
+    margin-left: 5px;
+  }
+}

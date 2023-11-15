@@ -38,4 +38,22 @@
   h3 {
     z-index: 1; /* Set z-index to ensure it's above the background image */
   }
+
+  @media only screen and (max-width: 600px) {
+    .service-container {
+      min-height: auto; /* Adjust min-height for mobile */
+    }
+  
+    .service-content {
+      max-width: 100%;
+      border-radius: 0;
+      padding: 10px;
+      margin-top: 20px; /* Adjust margin for mobile */
+    }
+  
+    .service-content p {
+      font-size: 14px; /* Adjust font size for mobile */
+    }
+   
+  }
   

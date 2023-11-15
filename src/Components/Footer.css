@@ -50,3 +50,27 @@
     font-size: 20px; 
     font-weight: bold;/* Adjust the font size as needed */
 }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column; /* Stack items vertically for smaller screens */
+  }
+
+  .left-side,
+  .right-side {
+    width: 100%; /* Take up full width on mobile */
+    margin: 0; /* Remove margin for better spacing */
+  }
+
+  .right-side {
+    margin-top: 0; /* Adjust margin-top for better spacing */
+  }
+
+  .left-side p {
+    font-size: 16px; /* Reduce font size for mobile */
+  }
+
+  .contact-item {
+    text-align: center; /* Center contact items on mobile */
+  }
+}

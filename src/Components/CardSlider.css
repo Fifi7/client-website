@@ -59,4 +59,69 @@
   }
   
 
- 
+  @media only screen and (max-width: 600px) {
+    /* .card-slider {
+      padding: 10px; 
+    }
+  
+    .card {
+      width: 90%;
+      height:90% 
+    }
+    .slider-controls {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .slider-controls button {
+      margin: 10px 0; 
+    } */
+
+    .service-container {
+      display: flex;
+      flex-direction: column; /* Stack cards and slider vertically on small screens */
+      align-items: center;
+      text-align: center;
+    }
+    
+    .card-slider {
+      width: 100%; /* Make the slider full width on small screens */
+    }
+    
+    .service-card {
+      width: 100%; /* Make cards full width on small screens */
+      margin-bottom: 20px; /* Add spacing between cards */
+    }
+    
+    .service-card img {
+      max-width: 100%; /* Ensure images don't exceed the card width */
+    }
+    
+    .card-slider {
+      overflow: hidden; /* Hide overflow for small screens */
+    }
+    
+    .card-slider .slide {
+      width: 100%; /* Make slides full width on small screens */
+    }
+    
+    .service-card h3 {
+      font-size: 18px; /* Adjust the font size as needed */
+    }
+    
+    .service-card p {
+      font-size: 14px; /* Smaller font size for paragraphs */
+    }
+    
+    .service-container {
+      padding: 20px; /* Add padding to the container for spacing */
+    }
+    
+    .card-slider {
+      margin-top: 20px; /* Add spacing between the slider and cards */
+    }
+    
+.card-list{
+  flex-direction: column;
+}
+  }  
