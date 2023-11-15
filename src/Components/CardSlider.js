@@ -7,7 +7,7 @@ import img1 from '../Assets/service1.jpeg';
 
 const cards = [
     { name: 'John Doe', title: 'Construction & Maintenance', imageSrc: img1 },
-    // Add other card objects with imageSrc
+    
   ];
 
 const CardSlider = ({ cards }) => {

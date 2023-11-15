@@ -2,7 +2,7 @@
 import './NavBar.css';
 import image1 from '../Assets/logo1.png';
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom'; 
 
 function NavBar() {
 
@@ -13,7 +13,6 @@ function NavBar() {
   };
 
   return (
-    // <div className="topnav">
     <div className={`topnav ${responsive ? 'responsive' : ''}`}>
       <div className="logo">
         <img src={image1} alt="Logo" />
@@ -33,19 +32,5 @@ export default NavBar;
 
 
 
-// function NavBar() {
-//   return (
-//     <div className="topnav">
-//       <div className="logo">
-//         <img src={image1} alt="Logo" />
-//       </div>
-//       <a href="#contact-us">Contact Us</a>
-//       <a href="#service">Service</a>
-//       <a href="#about-us">About Us</a>
-//       <a href="#home">Home</a>
-//     </div>
-//   );
-// }
 
-// export default NavBar;
 

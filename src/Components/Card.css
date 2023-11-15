@@ -1,20 +1,16 @@
 
-  
-  /* Add some padding inside the card container */
   .card-container {
-    padding: 20px; /* Increase padding for more space */
-    text-align: center; /* Center-align text content */
+    padding: 20px; 
+    text-align: center; 
     background-color: maroon;
-    height: 120px; /* Increase the height of the card container */
+    height: 120px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
 }
   
-  
-  
-  
+   
   .card h4 {
     margin: 10px 0; 
     color: white;
@@ -23,10 +19,8 @@
   
   }
   
- 
-  
   .card-list {
-    display: flex; /* Use Flexbox to create a horizontal layout */
-    justify-content: space-between; /* Distribute cards with space between them */
+    display: flex; 
+    justify-content: space-between; 
   }
   

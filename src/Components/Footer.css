@@ -10,7 +10,6 @@
      
   }
 
-  /* Style for the left side with a different background color */
 .left-side {
     background-color: maroon; 
     padding: 5px;
@@ -18,7 +17,6 @@
     
   }
 
-  /* Style for the right side with another background color */
 .right-side {
     background-color: white; 
     padding: 5px;
@@ -27,50 +25,50 @@
     display: flex;
     flex-direction: column; 
   }
- /* Style for the main content */
+ 
 .content {
-    margin-bottom: auto; /* Push content to the top */
+    margin-bottom: auto; 
   }
   
-  /* Style for the contact information */
+ 
   .footer-contact-info {
    
     color:maroon;
-     /* Set to row to display contact items side by side */
+    
   }
   
-  /* Style for individual contact items */
+  
   .contact-item {
-     /* Adjust the font size as needed */
-    color: maroon; /* Set the text color to maroon or your desired color */
-    /* Align the contact items to the right */
+    
+    color: maroon; 
+   
     
   }
   .left-side p {
     font-size: 20px; 
-    font-weight: bold;/* Adjust the font size as needed */
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
   .footer {
-    flex-direction: column; /* Stack items vertically for smaller screens */
+    flex-direction: column; 
   }
 
   .left-side,
   .right-side {
-    width: 100%; /* Take up full width on mobile */
-    margin: 0; /* Remove margin for better spacing */
+    width: 100%; 
+    margin: 0; 
   }
 
   .right-side {
-    margin-top: 0; /* Adjust margin-top for better spacing */
+    margin-top: 0; 
   }
 
   .left-side p {
-    font-size: 16px; /* Reduce font size for mobile */
+    font-size: 16px; 
   }
 
   .contact-item {
-    text-align: center; /* Center contact items on mobile */
+    text-align: center; 
   }
 }

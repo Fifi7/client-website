@@ -1,23 +1,17 @@
 .bg-img {
-    /* The image used */
     background-image: url("../Assets/Hero3.jpeg");
-    /* Control the height of the image */
     min-height: 700px;
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
   }
   
-  /* Add styles to the form container */
   .container {
     position: absolute;
-    /* left: 0;  */
-
-    left: 50%; /* Move the container to the horizontal center */
-  top: 50%; /* Move the container to the vertical center */
-  transform: translate(-50%, -50%); /* Center the container both horizontally and vertically */
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
     margin: 20px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -26,17 +20,13 @@
     padding: 16px;
     background-color: white;
     background-color: rgba(255, 255, 255, 0.8);
-    border: 3px solid maroon; /* Maroon border */
-    border-radius: 10px; /* Rounded border corners */
+    border: 3px solid maroon; 
+    border-radius: 10px; 
   }
   
-
-
-  /* Left section styles */
 .left-section {
-    /* flex: 1; */
     padding: 16px;
-    border-left: 3px solid #800000; /* Vertical line separating left and right sections */
+    border-left: 3px solid #800000; 
     margin-left: 150px;
     order:1;
   }
@@ -58,15 +48,14 @@
     font-size: 20px;
   }
   
-  /* Right section styles */
   .right-section {
-    /* flex: 2; */
+    
     padding: 16px;
   }
-  /* Full-width input fields */
+  
   label {
-    display: block; /* Display each label on a new line */
-    margin-bottom: 5px; /* Add space between labels */
+    display: block; 
+    margin-bottom: 5px; 
   }
   
   input[type="text"],
@@ -81,7 +70,7 @@
   textarea {
     width: 300px;
     padding: 15px;
-    margin: 5px 0 15px 0; /* Add space after the textarea */
+    margin: 5px 0 15px 0; 
     border: none;
     background: #f1f1f1;
   }
@@ -93,7 +82,6 @@
     outline: none;
   }
   
-  /* Set a style for the submit button */
   .btn {
     background-color: maroon;
     color: white;
@@ -108,93 +96,84 @@
     opacity: 1;
   }
   
-  /* Add these styles to your ContactUs.css file */
-
-/* Style the icon container */
 .icon {
   display: flex;
   align-items: center;
-  margin-bottom: 5px; /* Add some space between icon and text */
+  margin-bottom: 5px; 
 }
 
-/* Style the FontAwesome icons */
 .icon svg {
-  font-size: 24px; /* Adjust the icon size as needed */
-  margin-right: 10px; /* Add space between icon and text */
+  font-size: 24px; 
+  margin-right: 10px; 
 }
 
-/* Style the paragraph text */
 .text p {
   margin-left: 10px;
   
 }
 
-/* ... (previous styles) */
+
 
 /* Media query for mobile styles */
 @media only screen and (max-width: 600px) {
-  /* Adjust the background image size for better visibility */
   .bg-img {
     min-height: 400px;
   }
 
-  /* Adjust the form container styles for mobile view */
   .container {
-    width: 90%; /* Use a percentage width for better responsiveness */
-    grid-template-columns: 1fr; /* Display one column for mobile view */
+    width: 90%; 
+    grid-template-columns: 1fr; 
     gap: 10px;
-    margin: 10px;
-    max-width: 400px; /* Limit the maximum width for smaller screens */
-    padding: 10px; /* Add padding for better spacing */
+    margin: 1px;
+    max-width: 400px; 
+    padding: 10px; 
     background-color: rgba(255, 255, 255, 0.8);
     border: 3px solid maroon;
     border-radius: 10px;
   }
 
-  /* Adjust the left section styles for mobile view */
   .left-section {
-    border-left: none; /* Remove the vertical line for mobile view */
+    border-left: none; 
     margin-left: 0;
     padding: 10px;
     order: 0;
   }
 
-  /* Adjust the right section styles for mobile view */
   .right-section {
     padding: 10px;
   }
 
-  /* Adjust input and textarea styles for mobile view */
+
   input[type="text"],
   input[type="password"],
   textarea {
     width: 100%; 
-    box-sizing: border-box; /* Include padding and border in the width calculation */
-    margin: 5px 0;/* Make the input fields take up the full width */
+    box-sizing: border-box; 
+    margin: 5px 0;
   }
 
-  /* Adjust the button styles for mobile view */
+
   .btn {
     width: 100%;
   }
 
-  /* Adjust contact info styles for mobile view */
+  
   .contact-info {
     margin-top: 10px;
   }
 
-  /* Adjust info styles for mobile view */
+  
   .info {
     margin-bottom: 5px;
   }
   
-  /* Adjust icon styles for mobile view */
+  
   .icon svg {
     font-size: 20px;
     margin-right: 5px;
   }
 
-  /* Adjust text styles for mobile view */
+  
   .text p {
     margin-left: 5px;
   }

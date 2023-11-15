@@ -38,10 +38,7 @@ const Service = () => {
         </p>
       </div>
       <CardSlider cards={cards} />
-      
-     
     </div>
-   
    
   );
 };

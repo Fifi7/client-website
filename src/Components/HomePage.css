@@ -39,12 +39,12 @@
   
     .hero-container .content {
       max-width: 100%;
-      border-radius: 0; /* Remove border-radius for mobile */
-      padding: 10px; /* Adjust padding for mobile */
-      /* margin-top: 20px;  */
+      border-radius: 0; 
+      padding: 10px; 
+      
     }
   
     .hero-container .content p {
-      font-size: 14px; /* Adjust font size for mobile */
+      font-size: 14px; 
     }
   }

@@ -25,7 +25,6 @@ const ContactUs = () => {
 
       if (response.ok) {
         alert('Message sent successfully!');
-        // Optionally, clear the form fields.
         setName('');
         setEmail('');
         setMessage('');

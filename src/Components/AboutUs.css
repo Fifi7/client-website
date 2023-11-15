@@ -18,17 +18,16 @@
     padding: 20px;
     border-radius: 15px;
     max-width: 600px;
-  margin: 0 auto;
-  font-size: 16px; /* Smaller font size for paragraphs */
-  line-height: 1.4; /* Adjust line height for better readability */
-  padding: 20px 40px;
-    /* max-width: 600px; 
-    margin: 0 auto; */
+    margin: 0 auto;
+    font-size: 16px; 
+    line-height: 1.4; 
+    padding: 20px 40px;
+    
     
   }
   
   .about-container .about-content p {
-    text-align: left; /* Justify text for proper alignment */
+    text-align: left; 
      
   
   }
@@ -42,11 +41,10 @@
   .about-content {
     max-width: 100%;
     border-radius: 0;
-    /* padding: 10px;  */
     margin-top: 20px; 
   }
   
   .about-container .about-content p {
-    font-size: 14px; /* Adjust font size for mobile */
+    font-size: 14px; 
   }
 }
